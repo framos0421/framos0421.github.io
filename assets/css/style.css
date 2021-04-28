@@ -1,0 +1,187 @@
+#body {
+    background-color: #E1E8FF;
+    margin: 20px;
+    position: relative;
+}
+#jukebox {
+    position: absolute;
+    text-align: center;
+    left: 22.5%;
+}
+@keyframes rise {
+    0% { transform: translate(-15px,  0px); }
+    50%  { transform: translate(15px, 40px); }
+    100%   { transform: translate(-15px, -0px); }    
+}
+
+#parent .music-notes {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 1000px;
+    justify-content: space-between;
+}
+.music-notes {
+    animation: rise 3s ease-in-out infinite;
+    visibility: hidden;
+}
+.play {
+    position: absolute;
+    bottom: 680px;
+    left: 30%;
+}
+#play-music {
+    padding: 16px 10px;
+	margin: 0px;
+	border-radius: 31px;
+	font-size: 20px;
+    font-family: 'Audiowide', cursive;
+	color:black;
+	background: #3891A6;
+    width: 300px;
+}
+#play-music:hover {
+    margin: 0px;
+    border: 4px gray;
+
+}
+.song-title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 25%;
+    bottom: 90px;
+    height: 500px;
+    width: 392px;
+}
+#song1 {
+    padding: 16px 10px;
+	margin: 0px 0;
+	border-radius: 31px;
+	font-size: 20px;
+    font-family: 'Audiowide', cursive;
+	color:black;
+	background: #3891A6;
+}
+#song1:hover {
+    margin: 0px;
+    border: 4px gray;
+}
+#song2 {
+    padding: 16px 100px;
+	margin: 20px 0;
+	border-radius: 31px;
+	font-size: 20px;
+    font-family: 'Audiowide', cursive;
+	color:black;
+	background: #3891A6;
+}
+/* Song 1 */
+#lovely-day {
+    background-color: #F6D912;
+    margin: 100px;
+    margin-top: 50px;
+}
+#menu {
+    padding: 10px 10px;
+	margin: 15px 0;
+	border-radius: 31px;
+	font-size: 16px;
+    font-family: 'Audiowide', cursive;
+	color:#F6D912;
+	background: black;
+    width: 150px;
+}
+@keyframes spin {
+    100%{ transform: rotate(300deg);}
+}
+#sun {
+    animation: spin 5s ease-in-out infinite;
+}
+.first {
+    font-size: 100px;
+    font-family: 'Lobster', cursive;
+}
+.second {
+    font-size: 56px;
+    font-family: 'Baloo Da 2', cursive;
+}
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+#a .first {
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 2px;
+    animation: fadeInOut 7s ease-in infinite;
+}
+#b {
+    display: flex;
+    flex-direction: column;
+    width:800px;
+    margin-left: 100px;
+    line-height: 5px;
+}
+#one {
+    text-align: left;
+}
+#two {
+    text-align: center;
+} 
+#three {
+    text-align: right;
+}
+#c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1200px;
+}
+#c .first {
+    position: relative;
+    margin-left: 200px;
+}
+#d {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-left: 120px;
+    line-height: 5px;
+}
+#five {
+    text-align: right;
+}
+#six {
+    text-align: left;
+}
+#seven {
+    text-align: center;
+}
+@keyframes float {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+#e .first {
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 140px;
+    margin: 5px;
+    animation: float 3s ease-in-out infinite;
+}
+#f .second {
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: bottom;
+}
+
